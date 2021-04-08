@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <p><h2>Your shorted url:</h2></p>
+    <p>
+
+    <h3>{{ request.META.HTTP_HOST }}\{{ object }}</h3>
+    </p>
+{% endblock %}
